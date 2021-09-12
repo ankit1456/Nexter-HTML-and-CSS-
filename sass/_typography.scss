@@ -38,12 +38,15 @@
   text-transform: uppercase;
   padding: 1.8rem 3rem;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.3s;
   font-size: 1.5rem;
+  backface-visibility: hidden;
 }
 
 .btn:hover {
   background-color: $color-primary-dark;
+  transform: translateY(-2px);
+  box-shadow: 0 1.1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 .mb-sm {
