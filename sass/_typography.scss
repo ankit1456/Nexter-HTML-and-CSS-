@@ -5,6 +5,9 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 4.5rem;
+  color: $color-grey-light-1;
+  line-height: 1;
 }
 .heading-2 {
   @extend %heading;
@@ -41,12 +44,12 @@
   transition: all 0.3s;
   font-size: 1.5rem;
   backface-visibility: hidden;
-}
 
-.btn:hover {
-  background-color: $color-primary-dark;
-  transform: translateY(-2px);
-  box-shadow: 0 1.1rem 2rem rgba(0, 0, 0, 0.3);
+  &:hover {
+    background-color: $color-primary-dark;
+    transform: translateY(-2px);
+    box-shadow: 0 1.1rem 2rem rgba(0, 0, 0, 0.2);
+  }
 }
 
 .mb-sm {
