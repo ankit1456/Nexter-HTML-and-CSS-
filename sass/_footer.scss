@@ -1,7 +1,7 @@
 .footer {
   background-color: $color-secondary;
   grid-column: full-start / full-end;
-  padding: 8rem;
+  padding: 7rem;
 }
 
 .nav {
@@ -9,7 +9,7 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
   align-items: center;
 
   &__link:link,
